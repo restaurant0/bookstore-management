@@ -1,0 +1,51 @@
+.add-transaction-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.add-transaction-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+    padding: 3px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.btn.save {
+    background-color: green;
+}
+
+.btn.cancel {
+    background-color: red;
+}
+

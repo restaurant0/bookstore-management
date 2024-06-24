@@ -1,0 +1,67 @@
+.transaction-container {
+    margin-left: 220px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.add-transaction-button {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-transaction-button:hover {
+    background-color: #138496;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.transaction-table th, .transaction-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.transaction-table th {
+    background-color: #f8f9fa;
+}
+
+.edit-button {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #bc2a2a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
